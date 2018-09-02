@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Choice Coffee</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <header id="header">
+      <img id="header-img" src="https://image.ibb.co/d2T0Ue/logo.png"  alt="Choice Coffee Logo">
+      <nav id="nav-bar">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#products">Products</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 id="about">About</h2>
+        <div class="container">
+          <div class="outer">
+            <p id="company">Our company was founded in 1995. We expanded into online sales in
+              2010. We've spent this time traveling the world finding the best
+              coffee beans and perfecting our roasting methods. We are excited to
+              pass on our quality discoveries to our loyal customers.</p>
+          </div>
+          <div class="outer">
+            <div id="video">
+              <iframe
+                src="https://player.vimeo.com/video/286685255?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+                width="300" height="169" frameborder="0" webkitallowfullscreen
+                mozallowfullscreen allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      <h2 id="products">Products</h2>
+        <p>
+          Choice Coffee provides the finest selection of organic, gourmet,
+          fair-trade, and rainforest alliance coffee. Choose from over a dozen
+          delicious varieities which include coffee blends, single origin
+          coffees, decaffeinated coffee, and espresso. We offer fresh roasted
+          coffee beans or ground coffee - it's your choice with Choice Coffee.
+        </p>
+        <img id="coffee-cup" src="https://image.ibb.co/jvtTXz/coffecup.jpg"  alt="Cup of coffee">
+      <h2 id="contact">Contact</h2>
+        <div class="container">
+          <div class="outer">
+            <p>Call (800) 123-4567</p>
+            <p>Email info@choicecoffee.com</p>
+          </div>
+          <div class="outer">
+            <p>Sign up for our mailing list to get information on sales and new
+              products.</p>
+              <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+                <div id="btn">
+                  <input id="submit" type="submit" value="Sign Up"></input>
+                </div>
+              </form>
+          </div>
+        </div>
+    </main>
+
+  </body>
+
+
+</html>
