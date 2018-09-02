@@ -199,4 +199,8 @@ form {
     display: flex;
   }
 
+  #mailing-list {
+    padding-left: 7em;
+  }
+
 }
