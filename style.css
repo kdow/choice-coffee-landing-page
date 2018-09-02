@@ -203,4 +203,14 @@ form {
     padding-left: 7em;
   }
 
+  form {
+    flex-direction: row;
+  }
+
+  #btn {
+      text-align: center;
+      padding: 0;
+  }
+
+
 }
