@@ -199,6 +199,12 @@ form {
     display: flex;
   }
 
+
+  #coffee-cup {
+    float: right;
+    padding-left: 1em;
+  }
+
   #mailing-list {
     padding-left: 7em;
   }
