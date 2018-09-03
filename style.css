@@ -169,6 +169,11 @@ form {
     background-color: #d3d3d3;
 }
 
+#contact-container {
+    padding-bottom: 3em; 
+}
+
+
 @media (min-width: 48em) {
   #header li {
     float: left;
@@ -198,7 +203,6 @@ form {
   .container {
     display: flex;
   }
-
 
   #coffee-cup {
     float: right;
