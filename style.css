@@ -134,6 +134,13 @@ h2 {
   margin-top: 0;
 }
 
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
 #coffee-cup {
   width: 100%;
   max-width: 400px;
@@ -177,6 +184,14 @@ form {
     padding-bottom: 3em;
 }
 
+form {
+  flex-direction: row;
+}
+
+#btn {
+    text-align: center;
+    padding: 0;
+}
 
 @media (min-width: 985px) {
   #header li {
@@ -216,15 +231,5 @@ form {
   #mailing-list {
     padding-left: 7em;
   }
-
-  form {
-    flex-direction: row;
-  }
-
-  #btn {
-      text-align: center;
-      padding: 0;
-  }
-
 
 }
